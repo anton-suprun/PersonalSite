@@ -339,10 +339,9 @@ header{
     flex: 1;
     text-align: center;
 }
-
+ 
 .profile-img{
     flex: 1;
-    margin-right: 5rem;
 }
 
 .profile-image{
@@ -376,6 +375,14 @@ ul#skills-list li{
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
+}
+
+.portfolio-item h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.portfolio-item p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .portfolio-item :last-child{
@@ -600,13 +607,9 @@ input[type="submit"]:hover{
     .about-details .nav-list{
         flex-direction: initial;
     }
-
 }
 
 @media screen and (max-width: 600px){
-    img{
-        width: 100%;
-    }
     .menu-toggler{
         top: 2rem;
         right: 2rem;
@@ -617,16 +620,23 @@ input[type="submit"]:hover{
     }
 
     .about-heading{
-        padding-top: 0.2rem;
+    padding-top: 0.2rem;
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
     margin-bottom: 6rem;
     }
 
-    .profile-img{
-        width: 100%;
-        margin: 0 0 7rem 0;
+    .profile-image{
+        width: 90%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5rem;
+    }
+
+    .about-heading{
+        margin-bottom: 6rem;
     }
 
     ul#skills-list li{
@@ -642,6 +652,7 @@ input[type="submit"]:hover{
         margin: 0 0 2rem 0;
         order: 1;
         width: 100%;
+        padding-top: 3rem;
     }
 
     .portfolio-description{
@@ -653,6 +664,4 @@ input[type="submit"]:hover{
     form{
         width: 100%;
     }
-
-
 }
