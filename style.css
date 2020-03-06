@@ -10,7 +10,7 @@ html{
     font-size: 10px;
     font-family:  'Open Sans', sans-serif; 
     color: #eee;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     box-sizing: border-box;
 }
 
