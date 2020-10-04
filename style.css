@@ -12,6 +12,7 @@ html{
     color: #eee;
     overflow-x: hidden;
     box-sizing: border-box;
+    overflow-y: scroll;
 }
 
 body{
@@ -20,6 +21,7 @@ body{
     background: url("files/images/sitebg.jpg") no-repeat center fixed;
     background-size: cover;
     overflow-x: hidden;
+    overflow-y: hidden;
     box-sizing: border-box;
 }
 
